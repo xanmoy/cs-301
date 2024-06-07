@@ -7,3 +7,12 @@ CREATE TABLE student(
 );
 
 SELECT * FROM student;
+
+INSERT INTO student 
+(rollno, name)
+VALUES
+(101, "Karan"),
+(102, "Arjun"),
+(103, "Ram");
+
+INSERT INTO student VALUES (104, "Shyam");
