@@ -30,4 +30,9 @@ select * from student where city not in ("delhi", "mumbai");
 select * from student limit 3;
 
 
-select * from student order by marks desc limit 3;
+select avg(marks) from student ;
+select count(rollno) from student ;
+
+select city, name, count(rollno) from student group by city, name;
+
+select avg(marks) , city from student group by city order by avg(marks) desc;
