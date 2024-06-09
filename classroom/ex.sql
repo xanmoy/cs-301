@@ -27,4 +27,21 @@ INSERT INTO EMPLOYEE_INFO VALUES (
 SELECT
   *
 FROM
-  EMPLOYEE_INFO
+  EMPLOYEE_INFO;
+  
+  
+  
+  
+  
+  
+  create table temp1(
+  id int unique,
+  primary key(id)
+  );
+  insert into temp1 values 
+  (101),
+  (102);
+  select * from temp1;
+  
+  
+  
