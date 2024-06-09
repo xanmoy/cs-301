@@ -28,3 +28,6 @@ select * from student where marks between 80 and 90;
 select * from student where city in ("delhi", "mumbai", "kolkata");
 select * from student where city not in ("delhi", "mumbai");
 select * from student limit 3;
+
+
+select * from student order by marks desc limit 3;
